@@ -99,7 +99,7 @@ function element_info_symbol() {
     // document.getElementById("info-element-symbol2").innerHTML = obj.employees[number2].atomicNumber + ": " + obj.employees[number2].name + "(" + obj.employees[number2].symbol + ") = " + rounded2;
     var fullNum = rounded1 + rounded2;
     var total_num = document.getElementById("numOfTwo").value;
-    if (total_num != null){
+    if (total_num != ""){
         fullNum = Number(total_num) * fullNum
     }
 
